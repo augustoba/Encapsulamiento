@@ -1,12 +1,24 @@
-public class Auto {
+package entity;
 
-    private String color;
+public class Auto {
+    // modificador de acceso public
     public Integer  puertas;
-    Integer modelo;
+    // modificador de acceso protected
     protected int cc;
+    // modificador de acceso default
+    Integer modelo;
+    // modificador de acceso private
+    private String color;
 
 
     public Auto() {
+    }
+
+    public Auto(Integer puertas, int cc, Integer modelo, String color) {
+        this.puertas = puertas;
+        this.cc = cc;
+        this.modelo = modelo;
+        this.color = color;
     }
 
     public String getColor() {
@@ -40,5 +52,6 @@ public class Auto {
     public void setCc(int cc) {
         this.cc = cc;
     }
+
 
 }
