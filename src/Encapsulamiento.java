@@ -5,6 +5,6 @@ public class Encapsulamiento {
 
      Auto objAuto = new Auto();
 
-    
+
     }
 }
